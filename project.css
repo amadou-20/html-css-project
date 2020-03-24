@@ -1,7 +1,20 @@
 .first-article, .second-article, .third-article{
-    width: 400px;
-    height: 500px;
-    border: 1px solid gray;
+    width: 320px;
+    height: 600px;
+    border: 1px solid #DCDCDC;
+    background-color: #DCDCDC;
+    padding: 12px;
+    margin:0px 16px 0px 16px;
+    border-radius: 8px;
+    text-align: justify;
+    box-shadow: 4px 4px 10px gray;
+}
+article h1{
+    text-align: center;
+}
+article:first-child{
+    color: white;
+    background-color: indianred;
 }
 header{
     display: flex;
@@ -19,6 +32,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
+    color: black;
 }
 .search :focus{
     background-color: orange;
@@ -42,8 +56,25 @@ h1{
     margin-right: 160px;
 }
 main{
-    border: 1px solid yellow;
     display: flex;
-    justify-content: space-around;
     margin-top: 24px;
+}
+footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin: 50px -12px 16px -12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h1, footer p, footer a{
+    list-style-image: url("list.png");
+}
+}
+
+footer a{
+    text-decoration: none;
+    color: lime;
 }
