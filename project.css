@@ -52,8 +52,13 @@ nav a:hover{
     border-radius: 8px;
     background-color: gray;
 }
-h1{
-    margin-right: 160px;
+header > h1{
+    margin-right: 60px;
+    color: black;
+    height: 50px;
+    padding: 6px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, green, yellow, red);
 }
 main{
     display: flex;
